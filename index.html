@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Framework Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Frontend Hub</h1>
+        <nav>
+            <button class="btn-angular" onclick="loadApp('angular')">Angular Module</button>
+            <button class="btn-react" onclick="loadApp('react')">React Module</button>
+        </nav>
+    </header>
+
+    <main id="content-area">
+        <div id="welcome-message" class="container">
+            <div class="hero-section">
+                <h2>Laboratorio de Arquitectura Frontend</h2>
+                <p class="subtitle">Una exploración de Micro-Frontends integrando los ecosistemas Angular y React.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">🏗️</div>
+                    <h3>Arquitectura Shell</h3>
+                    <p>Contenedor desarrollado en <strong>JavaScript Vanilla</strong> que orquesta la carga dinámica de módulos independientes.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">🔌</div>
+                    <h3>Integración de APIs</h3>
+                    <p>Consumo sincronizado de servicios REST para demostrar el manejo de asincronía y tipado de datos en diferentes entornos.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">📦</div>
+                    <h3>Multi-Framework</h3>
+                    <p>Comparativa técnica directa entre <strong>React</strong> (basado en librerías y hooks) y <strong>Angular</strong> (framework robusto y empresarial).</p>
+                </div>
+            </div>
+
+            <div class="cta-message">
+                <p>Selecciona un módulo en la parte superior para inicializar el micro-frontend correspondiente.</p>
+            </div>
+        </div>
+
+        <iframe id="app-frame" src="" frameborder="0" style="display:none;"></iframe>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
