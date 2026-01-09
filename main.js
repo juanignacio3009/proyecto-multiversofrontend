@@ -6,10 +6,10 @@ function loadApp(framework) {
     frame.style.display = 'block';
 
     if (framework === 'angular') {
-        // Apunta a la ruta build de Angular
+        // Esta es la ruta exacta según tu log de Angular 18
         frame.src = './angular-app/dist/angular-app/browser/index.html';
     } else if (framework === 'react') {
-        // Apunta a la ruta build de React
+        // Esta es la ruta exacta según tu log de React
         frame.src = './react-app/build/index.html';
     }
 }
