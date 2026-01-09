@@ -6,3 +6,6 @@ Este ecosistema frontend demuestra la convivencia de múltiples tecnologías en 
 * **Consumo de API Real:** Ambos módulos sincronizan datos de usuarios desde una API REST externa.
 * **Diseño Coherente:** Interfaz moderna basada en Grid y Flexbox con una estética de "Dashboard" profesional.
 * **Optimizado para Producción:** Implementación de builds compilados para maximizar el rendimiento.
+
+Visualización:
+https://juanignacio3009.github.io/proyecto-multiversofrontend/
